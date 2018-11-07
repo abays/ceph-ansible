@@ -1,0 +1,11 @@
+remote_user: root
+ceph_origin: repository
+ceph_repository: rhcs
+ceph_repository_type: cdn
+ceph_rhcs_version: 3
+#ceph_stable_release: luminous
+public_network: "10.19.110.0/24"
+monitor_interface: br0
+devices:
+  - '/dev/sdb'
+osd_scenario: collocated
